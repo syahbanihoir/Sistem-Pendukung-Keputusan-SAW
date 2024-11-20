@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="asset/style/styles_baru.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td><img src="asset/image/logo_kota_adminis_jaksel.png" alt="Logo Kota Administrasi Jakarta Selatan"
+                        class="featured-image"></td>
+                <td>
+                    <h2>DATA BERSIH KASUS DEMAM BERDARAH <br>KOTA ADMINISTRASI JAKARTA SELATAN</h2>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <section>
+
+<!-- -------------->
+
+        <nav>
+            <ul>
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="">Per Kecamatan</a></li>
+                <li><a href="">Per Kelurahan</a></li>
+                <li><a href="seluruhdata.php">Seluruh Wilayah Jakarta Selatan</a>
+                
+                <li>
+                <button class="dropdown-btn">Sistem Pendukung Keputusan
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-container">
+                        <a href="#">Input Data Warga</a>
+                        <a href="#">Normalisasi</a>
+                        <a href="#">Perangkinga</a>
+                    </div>
+                </li>
+                    
+                <li><a href="">Logout</a>
+                </li>
+            </ul>
+        </nav>
+
+<!-- -------------->
+
+        <article>
+            <p>konten
+            </p>
+        </article>
+
+<!-- -------------->
+    </section>
+    <footer>
+        <p>Copyright &copy;2023</p>
+    </footer>
+    
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "block";
+            }
+        });
+        }
+    </script>
+
+</body>
+
+</html>
