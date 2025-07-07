@@ -49,4 +49,5 @@ Berikut Tampilan dari sistem yang telah dibuat:
     ![image](https://github.com/user-attachments/assets/dd701657-3f42-405f-827d-1a535fb382a5)
 
 37.	Tampilan Layar Cetak Laporan
-    ![Uploading image.png…]()
+    ![image](https://github.com/user-attachments/assets/f8bf33d3-64e3-4be5-8fe6-de0507068716)
+
