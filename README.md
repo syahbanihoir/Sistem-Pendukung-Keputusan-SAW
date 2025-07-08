@@ -1,4 +1,4 @@
-NI ADALAH SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE Simple Additive Weighting (SAW), 
+Website Analisis Data untuk Sistem Pendukung Keputusan Menggunakan Metode Simple Additive Weighting (SAW) 
 
 Berikut Tampilan dari sistem yang telah dibuat:
 1.	Tampilan Layar Form Login
