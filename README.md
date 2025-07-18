@@ -1,7 +1,6 @@
 # Sistem_Pendukung_Keputusan_SAW
 
-Website Analisis Data untuk Sistem Pendukung Keputusan Penerima Bantuan DBD Menggunakan Metode Simple Additive Weighting (SAW) 
-Membangun sistem pendukung keputusan berbasis web untuk menentukan penerima bantuan demam berdarah dengan metode Simple Additive Weighting (SAW) agar tepat sasaran. Sistem dikembangkan menggunakan PHP dan SQL Server, dan menghasilkan output berupa nilai perhitungan sebagai dasar pengambilan keputusan.
+Website Analisis Data untuk Sistem Pendukung Keputusan Penerima Bantuan DBD Menggunakan Metode Simple Additive Weighting (SAW). Sistem dikembangkan menggunakan PHP dan SQL Server, dan menghasilkan output berupa nilai perhitungan sebagai dasar pengambilan keputusan.
 
 Berikut Tampilan dari sistem yang telah dibuat:
 1.	Tampilan Layar Form Login
